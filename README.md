@@ -8,4 +8,5 @@ Obesity is an increasing global health problem. It has been estimated that in 20
 # Project cheat sheet
     
 Project classes: SensePlate/app/src/main/java/com/example/senseplate/
+
 Layout xml: SensePlate/app/src/main/res/layout/
