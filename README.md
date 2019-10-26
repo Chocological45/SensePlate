@@ -10,3 +10,19 @@ Obesity is an increasing global health problem. It has been estimated that in 20
 Project classes: SensePlate/app/src/main/java/com/example/senseplate/
 
 Layout xml: SensePlate/app/src/main/res/layout/
+
+# Using Git on Android Studio
+
+For pushing changes onto GitHub
+1. Add whataver new files or updated files changes you have made
+2. Commit those changes with a brief description
+3. Push those changes onto the GitHub repository
+
+For updating getting a local version from GitHub for the first time
+1. Open Android Studio and open 'Check out project from version control' and select Git
+2. Enter the project URL from the green 'Clone or download' button
+3. Open up your project locally
+
+For updating your project from GitHub
+1. If you have no changes that haven't been committed to GitHub yet, merge your local save with the GitHub remote save
+2. If you don't press 'Update Project' under 'VCS' (command + T for macOS)
