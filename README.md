@@ -25,4 +25,4 @@ For updating getting a local version from GitHub for the first time
 
 For updating your project from GitHub
 1. If you have changes that haven't been committed to GitHub yet, merge your local save with the GitHub remote save
-2. If you don't press 'Update Project' under 'VCS' (command + T for macOS)
+2. If you don't, press 'Update Project' under 'VCS' (command + T for macOS)
