@@ -1,13 +1,13 @@
-package com.example.senseplate.ui.home
+package com.example.senseplate.ui.social
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class SocialViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "What are we eating today?"
+        value = "This is social Fragment"
     }
     val text: LiveData<String> = _text
 }
