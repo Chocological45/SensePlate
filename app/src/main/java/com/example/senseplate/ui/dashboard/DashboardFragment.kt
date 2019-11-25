@@ -12,6 +12,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.senseplate.AddActivity
 import com.example.senseplate.R
+import kotlinx.android.synthetic.main.fragment_dashboard.*
 
 
 class DashboardFragment : Fragment() {
@@ -28,13 +29,27 @@ class DashboardFragment : Fragment() {
         val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
         val textView: TextView = root.findViewById(R.id.text_dashboard)
         val btn: Button = root.findViewById(R.id.bf)
+        val btnn: Button = root.findViewById(R.id.lun)
+        val btnnn: Button = root.findViewById(R.id.dn)
         dashboardViewModel.text.observe(this, Observer {
             textView.text = it
         })
         btn.setOnClickListener {
-            //val intent = Intent(getActivity(),AddActivity::class.java)
-           // startActivity(intent)
+            val intent = Intent(getActivity(),AddActivity::class.java)
+            intent.putExtra("MealType","Breakfast")
+            startActivity(intent)
         }
+        btnn.setOnClickListener {
+            val intent = Intent(getActivity(),AddActivity::class.java)
+            intent.putExtra("MealType","Lunch")
+            startActivity(intent)
+        }
+        btnnn.setOnClickListener {
+            val intent = Intent(getActivity(),AddActivity::class.java)
+            intent.putExtra("MealType","Dinner")
+            startActivity(intent)
+        }
+
 
         return root
     }
