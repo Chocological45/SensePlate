@@ -16,10 +16,17 @@
         android:name="com.example.senseplate.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
     <fragment
         android:id="@+id/navigation_social"
         android:name="com.example.senseplate.ui.social.SocialFragment"
         android:label="@string/title_social"
         tools:layout="@layout/fragment_social" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.senseplate.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
 
 </navigation>

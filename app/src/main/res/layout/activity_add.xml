@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/button_left_top"
+            android:id="@+id/button_yellow"
             android:layout_width="157dp"
             android:layout_height="156dp"
             android:layout_marginStart="42dp"
@@ -41,7 +41,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button_left_bot"
+            android:id="@+id/button_red"
             android:layout_width="157dp"
             android:layout_height="156dp"
             android:layout_marginStart="42dp"
@@ -54,7 +54,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button_right"
+            android:id="@+id/button_green"
             android:layout_width="160dp"
             android:layout_height="320dp"
             android:layout_marginTop="16dp"
