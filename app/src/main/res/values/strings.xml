@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">SensePlate</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_social">Social</string>
+    <string name="title_notifications">My Data</string>
+    <string name="title_social">Goals</string>
+    <string name="title_settings">Settings</string>
 </resources>
