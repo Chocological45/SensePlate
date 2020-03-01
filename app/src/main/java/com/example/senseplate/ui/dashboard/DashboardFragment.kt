@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.senseplate.AddActivity
+import com.example.senseplate.DActivity
 import com.example.senseplate.R
 
 
@@ -30,6 +31,10 @@ class DashboardFragment : Fragment() {
         val btn: Button = root.findViewById(R.id.bf)
         val btnn: Button = root.findViewById(R.id.lun)
         val btnnn: Button = root.findViewById(R.id.dn)
+        val btn1: Button = root.findViewById(R.id.date)
+
+
+
         dashboardViewModel.text.observe(this, Observer {
             textView.text = it
         })
@@ -46,6 +51,10 @@ class DashboardFragment : Fragment() {
         btnnn.setOnClickListener {
             val intent = Intent(getActivity(),AddActivity::class.java)
             intent.putExtra("MealType","Dinner")
+            startActivity(intent)
+        }
+        btn1.setOnClickListener {
+            val intent = Intent(getActivity(), DActivity::class.java)
             startActivity(intent)
         }
 
